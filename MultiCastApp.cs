@@ -12,6 +12,8 @@ class MultiCastApp{
     public static void Main(){
         Schedule obj = new Schedule();
         MultiCastDelegate mcd = new MultiCastDelegate(obj.Now);
+        mcd += new MultiCastDelegate(Schedule.Today);
+        mcd(); 
     }
 
 }
