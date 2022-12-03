@@ -10,5 +10,7 @@ class GenericMethodApp{
         int a = 1,b = 2; // a를 int 형 1, b를 int형 2로 정의함.
         double c = 1.5 , d = 2.5;
         Console.WriteLine("Before : a = {0}, b = {1}",a,b);
+        Console.WriteLine("After : a = {0}, b = {1}",a,b);
+    
     }
 }
