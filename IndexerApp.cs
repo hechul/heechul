@@ -13,5 +13,9 @@ class IndexrApp{
         c[1] = "RED";
         c[2] = "YELLOW";
         c[3] = "BLUE";
+        c[4] = "BLACK";
+        for(int i=0;i<5;i++){
+            Console.WriteLine("Color is " + c[i]);
+        }
     }
 }
