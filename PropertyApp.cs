@@ -1,7 +1,7 @@
 using System;
 class Fraction{
     private int numerator; // 프로퍼티 생성
-    private int denominator;
+    private int denominator; // denominator 프로퍼티 생성
     public int Numerator{
         get {return numerator;}
         set {numerator = value;}
