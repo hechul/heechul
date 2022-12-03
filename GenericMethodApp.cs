@@ -8,6 +8,6 @@ class GenericMethodApp{
     }
     public static void Main(String[] args){
         int a = 1,b = 2;
-        double c = 1.5
+        double c = 1.5 , d = 2.5;
     }
 }
