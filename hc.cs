@@ -12,8 +12,8 @@ class DelegateClass{
 class DelegateCallApp{
     public static void Main(){
         DelegateClass obj = new DelegateClass();
-        DelegateOne d1 = new DelegateOne(obj.MethodA);
-        DelegateTwo d2 = new DelegateTwo(obj.MethodB);
+        DelegateOne d1 = new DelegateOne(obj.MethodA); //메소드 a
+        DelegateTwo d2 = new DelegateTwo(obj.MethodB); //메소드 b
         d1();
         d2(20); // dd
     }
