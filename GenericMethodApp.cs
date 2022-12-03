@@ -3,7 +3,7 @@ class GenericMethodApp{
     static void Swap<DataType>(ref DataType x, ref DataType y){
         DataType temp; 
         temp = x; // x의 데이터를 temp에 저장
-        x = y;
+        x = y;    // y의 데이터를  x에 저장
         y = temp;
     }
     public static void Main(String[] args){
