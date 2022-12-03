@@ -6,4 +6,8 @@ class Fraction{
         get {return numerator;}
         set {numerator = value;}
     }
+    public int Denominator{
+        get {return denominator;}
+        set {denominator = value;}
+    }
 }
