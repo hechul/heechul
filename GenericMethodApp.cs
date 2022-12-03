@@ -1,8 +1,8 @@
 using System;
 class GenericMethodApp{
     static void Swap<DataType>(ref DataType x, ref DataType y){
-        DataType temp;
-        temp = x;
+        DataType temp; 
+        temp = x; // x의 데이터를 temp에 저장
         x = y;
         y = temp;
     }
