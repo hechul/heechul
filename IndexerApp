@@ -1,0 +1,4 @@
+using System;
+class Color{
+    private string[] color = new string[5];
+}
