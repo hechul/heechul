@@ -10,4 +10,7 @@ class Fraction{
         get {return denominator;}
         set {denominator = value;}
     }
+   override public string ToString(){
+    return (numerator + "/" + denominator);
+   }
 }
