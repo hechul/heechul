@@ -15,6 +15,6 @@ class DelegateCallApp{
         DelegateOne d1 = new DelegateOne(obj.MethodA);
         DelegateTwo d2 = new DelegateTwo(obj.MethodB);
         d1();
-        d2(20);
+        d2(20); // dd
     }
 }
