@@ -18,7 +18,7 @@ class PropertyApp{
     public static void Main(String[] args){
         Fraction f = new Fraction(); // 생성자 생성
         int i=0;                     // Denominator에 값을 넣기위한 변수
-        f.Numerator = 1;
+        f.Numerator = 1;             //Numerator 프로퍼티를 이용해 1을 넣음
         i = f.Numerator + 1;
         f.Denominator = i;
         Console.WriteLine(f.ToString());
