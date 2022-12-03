@@ -11,6 +11,7 @@ class IndexrApp{
         Color c = new Color();
         c[0] = "WHITE";
         c[1] = "RED";
-        c[2] = "YELLOW"
+        c[2] = "YELLOW";
+        c[3] = "BLUE";
     }
 }
