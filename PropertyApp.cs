@@ -17,7 +17,7 @@ class Fraction{
 class PropertyApp{
     public static void Main(String[] args){
         Fraction f = new Fraction(); // 생성자 생성
-        int i=0;
+        int i=0;                     // Denominator에 값을 넣기위한 변수
         f.Numerator = 1;
         i = f.Numerator + 1;
         f.Denominator = i;
