@@ -1,6 +1,6 @@
 using System;
 class Fraction{
-    private int numerator;
+    private int numerator; // 
     private int denominator;
     public int Numerator{
         get {return numerator;}
@@ -16,7 +16,7 @@ class Fraction{
 }
 class PropertyApp{
     public static void Main(String[] args){
-        Fraction f = new Fraction(); 
+        Fraction f = new Fraction(); // 생성자 생성
         int i=0;
         f.Numerator = 1;
         i = f.Numerator + 1;
