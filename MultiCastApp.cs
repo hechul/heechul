@@ -9,5 +9,8 @@ class Schedule{
     }
 }
 class MultiCastApp{
+    public static void Main(){
+        Schedule obj = new Schedule();
+    }
 
 }
