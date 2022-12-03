@@ -8,6 +8,8 @@ class Color{
 }
 class IndexrApp{
     public static void Main(){
-        
+        Color c = new Color();
+        c[0] = "WHITE";
+        c[1] = "RED";
     }
 }
