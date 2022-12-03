@@ -1,6 +1,6 @@
 using System;
 class Fraction{
-    private int numerator; // 
+    private int numerator; // 프로퍼티 생성
     private int denominator;
     public int Numerator{
         get {return numerator;}
