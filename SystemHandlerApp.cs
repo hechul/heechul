@@ -8,7 +8,7 @@ class SystemHandlerApp{
       Console.Writeline("Here : 2");
     
     }catch(IndexOutOfRangeException){
-      Console.Writeline("System up")
+      Console.Writeline("System Exception")
     }
  }
 }
