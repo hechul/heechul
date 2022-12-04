@@ -12,6 +12,6 @@ class ThreadStateApp{
         ThreadState obj = new ThreadState();
         ThreadStart ts = new ThreadStart(obj.ThreadBody);
         Thread t = new Thread(ts);
-        Console.
+        Console.WriteLine("Step 1:")
     }
 }
