@@ -9,7 +9,7 @@ class Program{
         }
         Console.Writeline("메인쓰레드 종료");
     }
-    private static void
+    private static void Func
 
 }
 
