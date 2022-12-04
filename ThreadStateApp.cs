@@ -14,7 +14,7 @@ class ThreadStateApp{
         Thread t = new Thread(ts);
         Console.WriteLine("Step 1: " + t.ThreadState);
         t.Start();
-        Thread.Sleep(100);
+        Thread.Sleep(100); //공백시간
         Console.WriteLine("Step 2: " + t.ThreadState);
         t.Suspend();
         Thread.Sleep(100);
