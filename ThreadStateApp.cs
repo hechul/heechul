@@ -23,5 +23,7 @@ class ThreadStateApp{
         Thread.Sleep(100);
         Console.WriteLine("Step 4: " + t.ThreadState);
         t.Abort();
+        Thread.Sleep(100);
+
     }
 }
