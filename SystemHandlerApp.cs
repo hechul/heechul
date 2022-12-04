@@ -8,7 +8,7 @@ class SystemHandlerApp{
       Console.Writeline("Here : 2");
     
     }catch(IndexOutOfRangeException){
-      Cons
+      Conso
     }
  }
 }
