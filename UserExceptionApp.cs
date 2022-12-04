@@ -5,7 +5,7 @@ class UserErrExeption:ApplicationException{
 class UserException{
     public static void Main(String[] args){
         try{
-            throw new UserErrExeption("throw a excep")
+            throw new UserErrExeption("throw a excepction")
         }
     }
 }
