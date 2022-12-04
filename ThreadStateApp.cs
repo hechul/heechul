@@ -8,7 +8,7 @@ class ThreadState{
     }
 }
 class ThreadStateApp{
-    public static void Main(String[] args){
+    public static void Main(String[] args){ // 메인문
         ThreadState obj = new ThreadState(); // 스레드상태
         ThreadStart ts = new ThreadStart(obj.ThreadBody);
         Thread t = new Thread(ts); // new
