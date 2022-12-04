@@ -5,7 +5,7 @@ class SystemHandlerApp{
     try{ // 시도
       Console.Writeline("Here : 1");
       vector[4] = 4; //예외 발생
-      Console.Writeline("Here : 2");
+      Console.Writeline("Here : 2"); // 2
     
    }catch(IndexOutOfRangeException){ //예외처리
       Console.Writeline("System Exception is occurred") // 예외발생문
