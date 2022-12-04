@@ -6,6 +6,8 @@ class UserException{
     public static void Main(String[] args){
         try{
             throw new UserErrExeption("throw a excepction with a message");
-        }catch()
+        }catch(UserErrExeption e){
+            Console.Writeline(e.Message);
+        }
     }
 }
