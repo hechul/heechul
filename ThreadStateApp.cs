@@ -11,7 +11,7 @@ class ThreadStateApp{
     public static void Main(String[] args){
         ThreadState obj = new ThreadState(); // 스레드상태
         ThreadStart ts = new ThreadStart(obj.ThreadBody);
-        Thread t = new Thread(ts);
+        Thread t = new Thread(ts); // new
         Console.WriteLine("Step 1: " + t.ThreadState);
         t.Start();
         Thread.Sleep(100); //공백시간
