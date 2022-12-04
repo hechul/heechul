@@ -19,7 +19,7 @@ class ThreadStateApp{
         t.Suspend(); //suspend
         Thread.Sleep(100);//공백시간
         Console.WriteLine("Step 3: " + t.ThreadState);
-        t.Resume(); //R
+        t.Resume(); //Re
         Thread.Sleep(100);  //공백시간
         Console.WriteLine("Step 4: " + t.ThreadState);
         t.Abort();
