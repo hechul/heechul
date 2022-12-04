@@ -4,4 +4,7 @@ class GenericType<T> where T : SystemException{
     public GenericType(T v){
         value = v;
     }
+    override public String ToString(){
+        return "Type is " + value.GetType();
+    }
 }
