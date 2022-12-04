@@ -8,5 +8,5 @@ class ThreadState{
     }
 }
 class ThreadStateApp{
-    
+    public static void Main()
 }
