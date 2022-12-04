@@ -5,6 +5,8 @@ class SystemHandlerApp{
     try{
       Console.Writeline("Here : 1");
       vector[4] = 4; //예외 발생
+      Console.Writeline("Here : 2");
+    
     }
  }
 }
