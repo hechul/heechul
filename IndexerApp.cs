@@ -1,6 +1,6 @@
 using System;
 class Color{ // 컬러 클래스
-    private string[] color = new string[5];
+    private string[] color = new string[5]; // 5개의 컬러를 넣데위한 인데스
     public string this[int index]{
         get {return color[index];}
         set {color[index] = value;}
