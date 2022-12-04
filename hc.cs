@@ -11,7 +11,7 @@ class DelegateClass{ // 델리게이트 클래스 생성
 }
 class DelegateCallApp{ // 델리게이트 불러오는 클래스
     public static void Main(){
-        DelegateClass obj = new DelegateClass();
+        DelegateClass obj = new DelegateClass(); // 생성자
         DelegateOne d1 = new DelegateOne(obj.MethodA); //메소드 a
         DelegateTwo d2 = new DelegateTwo(obj.MethodB); //메소드 b
         d1(); // 델리게이트 원
