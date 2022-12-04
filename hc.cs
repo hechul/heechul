@@ -1,7 +1,7 @@
 using System;
 delegate void DelegateOne();
 delegate void DelegateTwo(int i);
-class DelegateClass{
+class DelegateClass{ // 델리게이트 클래스 생성
     public void MethodA(){
         Console.WriteLine("In the DelegateClass.MethodA ...");
     }
