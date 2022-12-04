@@ -7,7 +7,7 @@ class Program{
             Console.Writeline(i+1);
             Thread.Sleep(100);
         }
-        Console.Writeline("")
+        Console.Writeline("메인")
     
     }
 }
