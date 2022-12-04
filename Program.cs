@@ -8,7 +8,7 @@ class Program{
             Console.Writeline(i+1);
             Thread.Sleep(100);
         }
-        Console.Writeline("메인쓰레드 종료");
+        Console.Writeline("메인쓰레드 종료"); // 메인쓰레드 종료문장
     }
     private static void Func(object obj){
         int num = (int)obj;
