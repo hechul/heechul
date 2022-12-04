@@ -14,7 +14,7 @@ class IndexrApp{ // 인덱스 클래스
         c[2] = "YELLOW";
         c[3] = "BLUE";
         c[4] = "BLACK";
-        for(int i=0;i<5;i++){
+        for(int i=0;i<5;i++){ // 반복문
             Console.WriteLine("Color is " + c[i]);
         }
     }
