@@ -9,6 +9,6 @@ class ThreadState{
 }
 class ThreadStateApp{
     public static void Main(String[] args){
-        
+        ThreadState obj = new ThreadState();
     }
 }
