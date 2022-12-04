@@ -14,5 +14,6 @@ class GenericMethodApp{
         Console.WriteLine("After : a = {0}, b = {1}",a,b);
         Console.WriteLine("Before : c = {0}, d = {1}",c,d);
         Swap<double>(ref c, ref d);
+        Console.WriteLine("After : c = {0}, d = {1}",c,d);
     	}
 }
