@@ -8,3 +8,6 @@ class GenericType<T> where T : SystemException{
         return "Type is " + value.GetType();
     }
 }
+public class BoundedGeneicApp{
+    
+}
