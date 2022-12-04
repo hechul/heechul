@@ -6,7 +6,7 @@ class Color{ // 컬러 클래스
         set {color[index] = value;}
     }
 }
-class IndexrApp{
+class IndexrApp{ // 인덱스 클래스
     public static void Main(){
         Color c = new Color();
         c[0] = "WHITE";
