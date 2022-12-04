@@ -12,11 +12,10 @@ public class BoundedGeneicApp{
     public static void Main(String[] args){
         GenericType<NullReferenceException> gNullEx =
         new GenericType<NullReferenceException>(new NullReferenceException());
-        GenericType<IndexOutOfRangeExeption> gIndexEx = 
-        new GenericType<IndexOutOfRangeExeption>(new IndexOutOfRangeExeption());
+        GenericType<IndexOutOfRangeException> gIndexEx = 
+        new GenericType<IndexOutOfRangeException>(new IndexOutOfRangeException());
         Console.WriteLine(gNullEx.ToString());
         Console.WriteLine(gIndexEx.ToString());
-    
     
     }
 }
