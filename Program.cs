@@ -14,7 +14,7 @@ class Program{
         int num = (int)obj;
         for(int i=0;i<num;i++){
             Console.Writeline(i + 1);
-            Thread.Sleep(100);
+            Thread.Sleep(100); // 공백시간
         }
     }
 
