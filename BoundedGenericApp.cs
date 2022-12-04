@@ -14,7 +14,8 @@ public class BoundedGeneicApp{
         new GenericType<NullReferenceException>(new NullReferenceException());
         GenericType<IndexOutOfRangeExeption> gIndexEx = 
         new GenericType<IndexOutOfRangeExeption>(new IndexOutOfRangeExeption());
-        
+        Console.WriteLine(gNullEx.ToString());
+        Console.WriteLine(gIndexEx.ToString());
     
     
     }
