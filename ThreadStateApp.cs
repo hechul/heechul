@@ -9,7 +9,7 @@ class ThreadState{
 }
 class ThreadStateApp{
     public static void Main(String[] args){
-        ThreadState obj = new ThreadState();
+        ThreadState obj = new ThreadState(); // 스레드상태
         ThreadStart ts = new ThreadStart(obj.ThreadBody);
         Thread t = new Thread(ts);
         Console.WriteLine("Step 1: " + t.ThreadState);
