@@ -8,6 +8,8 @@ class Program{
             Thread.Sleep(100);
         }
         Console.Writeline("메인쓰레드 종료");
-    
     }
+    private
+
 }
+
