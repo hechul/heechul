@@ -10,7 +10,7 @@ class Program{
         Console.Writeline("메인쓰레드 종료");
     }
     private static void Func(object obj){
-        
+        int num = 
     }
 
 }
