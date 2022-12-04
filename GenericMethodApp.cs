@@ -13,5 +13,6 @@ class GenericMethodApp{
         Swap<int>(ref a, ref b); // 정수형 변수로 호출
         Console.WriteLine("After : a = {0}, b = {1}",a,b);
         Console.WriteLine("Before : c = {0}, d = {1}",c,d);
+        Swap<double>(ref c, ref d);
     	}
 }
