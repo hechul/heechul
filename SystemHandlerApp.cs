@@ -10,5 +10,6 @@ class SystemHandlerApp{
     }catch(IndexOutOfRangeException){
       Console.Writeline("System Exception is occurred")
     }
+    Console.Writeline("Here : 3");
  }
 }
