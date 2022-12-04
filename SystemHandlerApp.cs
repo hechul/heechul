@@ -4,7 +4,7 @@ class SystemHandlerApp{
     int[] vector = {1,2,3} // 인덱스 선언
     try{
       Console.Writeline("Here : 1");
-      vector[4] = 4;
+      vector[4] = 4; //예외 발생
     }
  }
 }
