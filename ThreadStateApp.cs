@@ -1,4 +1,4 @@
-using System;
+using System; // 시스테
 using System.Threading;
 class ThreadState{
     public void ThreadBody(){
