@@ -1,2 +1,2 @@
 using System;
-class 
+class Div
