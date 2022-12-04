@@ -10,6 +10,6 @@ class SystemHandlerApp{
    }catch(IndexOutOfRangeException){ //예외처리
       Console.Writeline("System Exception is occurred") // 예외발생문
     }
-    Console.Writeline("Here : 3");
+    Console.Writeline("Here : 3"); // 3
  }
 }
