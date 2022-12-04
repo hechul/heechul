@@ -1,5 +1,5 @@
 using System;
-class Color{
+class Color{ // 컬러 클래스
     private string[] color = new string[5];
     public string this[int index]{
         get {return color[index];}
