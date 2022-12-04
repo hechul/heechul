@@ -4,12 +4,12 @@ class GenericType<T> where T : SystemException{
     public GenericType(T v){
         value = v;
     }
-    override public String ToString(){
+    override public String ToString(){ 
         return "Type is " + value.GetType();
     }
 }
 public class BoundedGeneicApp{
-    public static void Main(String[] args){
+    public static void Main(String[] args){ // 메인문
         GenericType<NullReferenceException> gNullEx =
         new GenericType<NullReferenceException>(new NullReferenceException());
         GenericType<IndexOutOfRangeException> gIndexEx = 
