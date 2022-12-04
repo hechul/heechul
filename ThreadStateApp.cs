@@ -8,5 +8,7 @@ class ThreadState{
     }
 }
 class ThreadStateApp{
-    public static void Main()
+    public static void Main(String[] args){
+        
+    }
 }
