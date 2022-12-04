@@ -1,4 +1,6 @@
 using System;
 class SystemHandlerApp{
- public static   
+ public static void Main(String[] args){
+
+ }
 }
