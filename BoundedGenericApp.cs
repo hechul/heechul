@@ -15,6 +15,6 @@ public class BoundedGeneicApp{
         GenericType<IndexOutOfRangeException> gIndexEx = // 예외타입 생성
         new GenericType<IndexOutOfRangeException>(new IndexOutOfRangeException());
         Console.WriteLine(gNullEx.ToString()); // ToString
-        Console.WriteLine(gIndexEx.ToString());
+        Console.WriteLine(gIndexEx.ToString()); // ToString
     }
 }
