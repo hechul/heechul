@@ -12,7 +12,7 @@ class Program{
     private static void Func(object obj){
         int num = (int)obj;
         for(int i=0;i<num;i++){
-            Console
+            Console.Writeline
         }
     }
 
