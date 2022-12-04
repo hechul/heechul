@@ -15,6 +15,6 @@ class DelegateCallApp{ // 델리게이트 불러오는 클래스
         DelegateOne d1 = new DelegateOne(obj.MethodA); //메소드 a
         DelegateTwo d2 = new DelegateTwo(obj.MethodB); //메소드 b
         d1();
-        d2(20); // dd
+        d2(20); // 델리게이트 투
     }
 }
