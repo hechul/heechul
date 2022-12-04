@@ -12,7 +12,7 @@ public class BoundedGeneicApp{
     public static void Main(String[] args){ // 메인문
         GenericType<NullReferenceException> gNullEx = // 예외타입 생성
         new GenericType<NullReferenceException>(new NullReferenceException());
-        GenericType<IndexOutOfRangeException> gIndexEx = 
+        GenericType<IndexOutOfRangeException> gIndexEx = // 예외타입 생성
         new GenericType<IndexOutOfRangeException>(new IndexOutOfRangeException());
         Console.WriteLine(gNullEx.ToString());
         Console.WriteLine(gIndexEx.ToString());
