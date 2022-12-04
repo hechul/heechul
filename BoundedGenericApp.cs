@@ -11,7 +11,7 @@ class GenericType<T> where T : SystemException{
 public class BoundedGeneicApp{
     public static void Main(String[] args){
         GenericType<NullReferenceException>(new NullReferenceException());
-        new GenericType<IndexOut>
+        new GenericType<IndexOutOf>
     
     
     }
