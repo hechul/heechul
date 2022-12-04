@@ -10,9 +10,10 @@ class GenericType<T> where T : SystemException{
 }
 public class BoundedGeneicApp{
     public static void Main(String[] args){
-        new GenericType<IndexOutOfRangeExeption> gIndexEx =
+        new GenericType<NullReferenceException> gNullEx =
         GenericType<NullReferenceException>(new NullReferenceException());
-         
+        new GenericType<IndexOutOfRangeExeption> gIndexEx = 
+        new 
     
     
     }
