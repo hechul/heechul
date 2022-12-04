@@ -1,7 +1,7 @@
 using System;
 using System.Threading;
 class Program{
-    public static void Main(String[] args){
+    public static void Main(String[] args){ // 메인문
         Thread myThread = new Thread(Func);
         myThread.Start(7);
         for(int i=0;i<3;i++){
